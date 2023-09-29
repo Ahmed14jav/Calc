@@ -32,7 +32,7 @@ namespace Calculator
                     mathRequest.Result = Calculate(mathRequest);
                     Console.WriteLine(mathRequest.ToString());
                 }
-                catch (MathLib.BadOperatorException ex)
+                catch  (MathLib.BadOperatorException ex)
                 {
                     Console.WriteLine("This operator " + oper + " doesn't exist !");
                 }
